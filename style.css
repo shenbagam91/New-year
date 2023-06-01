@@ -1,0 +1,39 @@
+body{
+    background:url("https://images.pexels.com/photos/4857625/pexels-photo-4857625.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(23, 177, 248);
+    font-family:'Poppins', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 60px;
+}
+.countdown{
+    display: flex;
+    transform: scale(1);
+}
+.time
+{
+    margin: 15px;
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+}
+.time h2
+{
+    margin-top: 5px;
+    font-size: 30px;
+}
+.year
+{
+    position: absolute;
+    font-size: 200px;
+    bottom: 0;
+    opacity: 0.4;
+}
